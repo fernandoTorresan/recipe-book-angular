@@ -18,5 +18,4 @@ export class RecipeListComponent implements OnInit {
   onSelected(recipe : Recipe) {
     this.recipeSelected.emit(recipe);
   }
-
 }
